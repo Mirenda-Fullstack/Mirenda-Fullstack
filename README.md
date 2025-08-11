@@ -1,6 +1,7 @@
 Hello I'm Fosso Mirenda a Full-Stack Developer
 
 I'm currently working on: python
+
 I'm currently learning: Python
 
 
