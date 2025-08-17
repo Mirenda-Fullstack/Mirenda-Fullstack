@@ -14,11 +14,10 @@ print(centered_formatted_text)
 
 First_Name = input(f"\033[1mFirst Name:")
 Last_Name = input(f"\033[1mLast Name:")
-Career = input(f"\033[1mCareer:")
 
 print(f"\033[1m\033[4mInstructions\033[0m: Fill in the blank spaces\n")
 
-print(f"Hello everyone my name is {First_Name} {Last_Name} I work as a  {Career}\n")
+print(f"Hello {First_Name} {Last_Name} I am Fosso Mirenda a FullStack developer\n")
 response = input(f"Thank you to have followed my courses, now you are going to answer to the following questions to test your skills\n Are you ready for the course (YES or NO):")
 
 if response.upper() == "YES":
@@ -88,4 +87,5 @@ if response.upper() == "YES":
     conduct_questions()
 
 else:
+
     print("\nOkay, we'll start when you are ready.")
