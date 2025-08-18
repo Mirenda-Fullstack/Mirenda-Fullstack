@@ -26,7 +26,7 @@ def guessing_game():
             # The computer guesses a number between 1 and 100
             computer_choice = random.randint(1, 100)
 
-            # --- Determine Game Mode for this round ---
+            # Determine Game Mode for this round
             # If it's the very first time playing from the main menu,
             # randomly decide if it's an unlimited or limited game.
             if not first_time_playing:
@@ -120,3 +120,4 @@ def guessing_game():
             print("Invalid choice. Please enter 1, 2, or 3.")
 
 guessing_game()
+
